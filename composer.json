@@ -1,0 +1,23 @@
+{
+    "name": "jrb/repository-pattern",
+    "description": "A repository pattern Base.",
+    "type": "library",
+    "authors": [{
+        "name": "jrb",
+        "email": "jrb.youssef@gmail.com"
+    }],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Jrb\\RepositoryPattern\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jrb\\RepositoryPattern\\RepositoryPatternServiceProvider"
+            ]
+        }
+    }
+}
